@@ -210,9 +210,12 @@ header {
   width: 36px;
 }
 .parents1 {
-  border: 1px solid #fff;
+  border: 1px solid #888;
   padding: 5px 5px 1px 5px;
   border-radius: 50px;
+}
+.parents1:hover {
+  border: 1px solid white;
 }
 .author5 {
   margin-left: 10px;
@@ -282,6 +285,7 @@ section {
 .editors-slider img {
   height: 433px;
   width: 294px;
+  object-fit: cover;
   border-radius: 15px;
 }
 .ico {
@@ -360,20 +364,20 @@ section {
   height: 183px;
   box-shadow: 0px 0px 50px 4px rgba(209, 209, 209, 0.3);
 }
+.content1:hover,
+.content2:hover {
+  box-shadow: 0px 0px 50px 4px rgba(209, 209, 209, 0.349);
+}
 .item {
   text-align: start;
-  /* background-color: aqua; */
   width: 739px;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
-.item1 {
-  /* background-color: aquamarine;   */
-}
+
 .book .item1 {
   display: flex;
   flex-direction: column;
   margin-left: 440px;
-  /* background-color: #e8e5e5; */
   width: 739px;
   transition: all 0.5s;
 }
@@ -385,7 +389,7 @@ section {
 .item:hover,
 .item1:hover {
   background: transparent;
-  transform: translateY(-50px);
+  transform: translateY(-10px);
 }
 .cover img {
   width: 135px;
@@ -520,9 +524,6 @@ section {
 }
 
 .blur {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
   padding: 15px 23px 30px 23px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 0 0 12px 12px;
@@ -532,8 +533,6 @@ section {
   color: #ffffff;
   position: absolute;
   backdrop-filter: blur(4px);
-  /* filter: blur(4px); */
-  /* z-index: ; */
 }
 
 .blur p {

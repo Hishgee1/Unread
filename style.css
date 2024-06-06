@@ -9,10 +9,9 @@ body {
   font: normal 10px / 20px "SF Display", Helvetica, Arial, sans-serif;
   background-color: #fafafa;
   letter-spacing: 0.015rem;
+  font-family: "SF Display", sans-serif;
 }
-header {
-  /* background-color: antiquewhite;s */
-}
+
 .header-container {
   width: 1525px;
   margin: auto;
@@ -22,4 +21,122 @@ header {
 .header-container a {
   font-size: 25px;
   color: #a6a6a6;
+}
+
+.mainmenu-nav {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.uk-container {
+  display: flex;
+  width: 1186px;
+  margin: auto;
+}
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  width: 1186px;
+  margin: 50px auto;
+  padding-left: 50px;
+}
+.footer-top .pad {
+  padding-bottom: 75px;
+}
+
+.uk-grid {
+  height: 367px;
+  width: 40%;
+  padding-left: 50px;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-size: 1.44rem;
+  line-height: 2.4rem;
+  color: #0078f6;
+  letter-spacing: 0.03rem;
+}
+.mainmenu-nav a {
+  text-decoration: none;
+  color: #888;
+  letter-spacing: 0.7px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 1.16rem;
+  line-height: 1.6rem;
+  cursor: pointer;
+}
+.mainmenu-nav a:hover {
+  color: black;
+}
+.mainmenu-nav a span {
+  font-size: 0.66rem;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  display: inline-block;
+  margin-top: 2px;
+  vertical-align: middle;
+}
+
+footer {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  height: 276.5px;
+}
+
+.uk-width {
+  width: 480px;
+  height: 52.5px;
+}
+.uk-width a {
+  text-decoration: none;
+}
+.uk-width span {
+  color: #121212;
+  font-size: 12px;
+}
+
+.uk-width a h3 {
+  font-weight: 900;
+  color: #000;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+.uk-width h3:hover {
+  color: #0078f6;
+}
+.main-nav {
+  display: flex;
+  gap: 5px;
+  width: 480px;
+}
+.main-nav a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  color: #000;
+}
+.transition1 {
+  padding-top: 6px;
+}
+
+.pre-dot::before {
+  content: ".";
+  margin-right: 10px;
+  font-size: 1.9rem;
+}
+.copyright {
+  color: #888888;
+  width: 480px;
+  line-height: 1.3rem;
+  margin-top: 18px;
+  font-size: 10px;
+  letter-spacing: 0;
+  padding-right: 15px;
 }
