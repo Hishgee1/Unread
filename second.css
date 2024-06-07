@@ -241,7 +241,6 @@ header {
   height: 300px;
   justify-content: center;
   /* overflow: hidden; */
-  background-color: #0078f6;
 }
 section {
   top: 65%;
@@ -252,7 +251,6 @@ section {
   height: 500px;
   display: flex;
   flex-direction: column;
-  background-color: #0078f6;
 }
 
 .section-title {
