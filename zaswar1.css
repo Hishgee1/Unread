@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Montserrat"), url("Montserrat-VariableFont_wght.ttf"), format(ttf);
+  }
+
+  .footer-down {
+   
+    width: 100vw;
+    height: 750px;
+    padding-top: 75px;
+    background-color: rgb(231, 228, 224);
+  }
+  .uk-width {
+    width: 50%;
+    margin: auto;
+    
+    height: 545px;
+    background-color: #0078f6;
+  }
+.uk-grid-large{
+    display: flex;
+    justify-content: space-between;
+
+}
+ 
+  .uk-width-small {
+
+    height: 403px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000;
+  } 
+  .uk-width-small a img {
+    background-color: red;
+    height: 18px;
+    
+  }
+  .contact-btn1,
+  .contact-btn2 {
+    background-color: aqua;
+   
+    height: 96.5;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  } 
+  .contact-btn1:hover,
+  .contact-btn2:hover {
+    transform: translateX(9px);
+  }
+  
+  .btn-black i:hover {
+  }
+  .btn-black .icon-i:hover {
+    background-color: #0078f6;
+  }
+  .btn-black {
+    text-decoration: none;
+    width: 323px;
+    height: 90px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.44rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: calc(100% - 108px);
+    padding: 25px 29px 27px 30px;
+    border-radius: 18px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(https://unread.today/img/btn-black.png);
+  }
+  .btn-black .icon-i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0078f6;
+  }
+  .btn-black .icon-i i {
+    height: 36px;
+    width: 36px;
+    margin-top: 10px;  
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: black;
+    border-radius: 50%;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .title1 p {
+    font-size: 12.6px;
+    opacity: 0.3;
+    color: #fff;
+    margin-bottom: 5px;
+    letter-spacing: 0.03px;
+    font-weight: 400;
+  }
+  .title1 h6 {
+    font-size: 14.6px;
+  }
+  
+  .app-link {
+    width: 30%;
+    height: 65px;
+  }
+  
+  .app-link a {
+    margin-right: 12px;
+  }
+  
+  .app-link a img {
+    width: 144px;
+    height: 45px;
+  }
+
+  .uk-width-last{
+    background-color: #878787;
+    display: flex;
+    flex-direction: column;
+    height: 405px;
+  }
+  .main-nav {
+    display: flex;
+
+    height: 21.5px;
+    margin-bottom: 2.6rem;
+  }
+  .main-nav .transition {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+  }
+  .pre-dot::before {
+    content: "•";
+    margin-left: 8px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    
+  }
+  .main-nav a:hover{
+    color: #bcb7b7;
+  }
+  
+  .copyright {
+    line-height: 1.3rem;
+    font-size: 0.8rem;
+    max-width: 500px;
+    color: #fff;
+    height: 28px;
+    opacity: 0.5;
+    margin: 15px 0;
+  }
+  .category-nav {
+    background-color: #000;
+    display: flex;
+    margin-top: 46px;
+  
+  }
+  .category-nav1 a,
+  .category-nav2 a,
+  .category-nav2 p {
+    text-decoration: none;
+    color: #878787;
+    transition: all 0.2s ease-in-out;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    letter-spacing: 0.03rem;
+  }
+  .category-nav1 a:hover,
+  .category-nav2 a:hover {
+    transform: translateX(5px);
+    color: #fff;
+  }
+  .category-nav2 p {
+    color: #fff;
+    opacity: 0.5;
+  }
+  .category-nav1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    gap: 10px;
+    width: 208px;
+    height: 264px;
+    background-color: #0078f6;
+  }
+  
+  .category-nav1 h5,
+  .category-nav2 h5 {
+    color: #0078f6;
+    font-size: 1.44rem;
+    line-height: 2.4rem;
+  }
+  
+  .category-nav2 {
+    width: 208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 14px;
+    background-color: #0078f6;
+  }
+  
+  .category-nav2 .gray {
+    color: #fff;
+  }
+  
+  .social-link {
+    
+    margin: 70px auto 10px auto;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-link a {
+    color: #fff;
+    opacity: 0.3;
+  }
+  .social-link a i {
+    font-size: 36px;
+  }
+  
+  .social-link a .fa-youtube:hover {
+    color: red;
+  }
+  
+  .social-link a .fa-cloud:hover {
+    color: red;
+  } 
