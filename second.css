@@ -72,6 +72,7 @@ body {
   }
   .book1 .book .item1{
     max-width: 330px;
+    margin-right: -30px;
     transition: all 0.2s;
   }
   .item .conten1{
@@ -81,12 +82,55 @@ body {
     font-size: 10px;
   }
  
-   .footer-top .grid-container {
+ 
+   
+    .footer-navbar{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+    }
+    .footer-top .grid-container {
       display: grid;
-      grid-template-columns:auto;
+      grid-template-columns:auto auto;
+      grid-auto-flow: dense;
     
     }
+    .grid-container .grid-item{
+      grid-column: 2 span;
+    }
+    /* .footer-top .grid-container3 {
+      display: none;
+     
+    } */
+    .footer-top .grid-container1{
+      display: none;
+    } 
+
+    .footer-down{
+     
+      
+     height: 2000px;
+      background-color: black;
+    }
+    .uk-width-small{
+      width: 50%;
+    }
+  .footer-down .uk-grid-large{
+    display: flex;
   
+    flex-direction: column;
+  }
+  .category-nav{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  } 
+
+  .uk-width .social-link{
+   display: none;
+  }
 }
 @media only screen and (min-width:650px) and (max-width: 1250px) {
   .header-container {
@@ -686,7 +730,7 @@ footer{
  .item20 {
   grid-row: 2 span;
 }
-.pad {
+.grid-container3 {
   margin-top: 60px;
 }
 
@@ -743,9 +787,9 @@ footer{
   border-radius: 0 0 3.6rem 3.6rem;
 }
 .footer-down {
-  background-color: red;
+  
   width: 100%;
-  height: 750px;
+
   padding-top: 75px;
   background-color: black;
 }
@@ -763,7 +807,7 @@ footer{
   width: 650px;
 }
 .uk-width-small {
-  width: 466px;
+ 
   height: 403px;
   display: flex;
   flex-direction: column;
